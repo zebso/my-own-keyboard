@@ -5,7 +5,7 @@
 	(uuid "51c7c7c0-f0da-4ec8-af07-216bef7e3317")
 	(paper "A4")
 	(lib_symbols
-		(symbol "CX70M-24P1:CX70M-24P1"
+		(symbol "5077CR-16SMC2-BK-TR:5077CR-16SMC2-BK-TR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -13,7 +13,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -7.6399 33.6142 0)
+				(at -12.7 10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,8 +21,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "CX70M-24P1"
-				(at -7.6329 -61.0196 0)
+			(property "Value" "5077CR-16SMC2-BK-TR"
+				(at -12.7 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,7 +30,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "CX70M-24P1:HRS_CX70M-24P1"
+			(property "Footprint" "5077CR-16SMC2-BK-TR:NELTRON_5077CR-16SMC2-BK-TR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,7 +58,47 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "1"
+			(property "MF" "Neltron"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.26mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/5077CR-16SMC2-BK-TR/Neltron/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -78,7 +118,7 @@
 					(hide yes)
 				)
 			)
-			(property "SNAPEDA_PN" "CX70M-24P1"
+			(property "PARTREV" "B"
 				(at 0 0 0)
 				(effects
 					(font
@@ -88,7 +128,7 @@
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "3.66 mm"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/5077CR-16SMC2-BK-TR/Neltron/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -98,7 +138,7 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "Hirose Electric Co Ltd"
+			(property "MP" "5077CR-16SMC2-BK-TR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -108,10 +148,50 @@
 					(hide yes)
 				)
 			)
-			(symbol "CX70M-24P1_0_0"
+			(property "Description_1" "USB 3.1 C Type Female with Peg"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Neltron"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "5077CR-16SMC2-BK-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "5077CR-16SMC2-BK-TR_0_0"
 				(rectangle
-					(start -7.62 -58.42)
-					(end 7.62 33.02)
+					(start -12.7 -12.7)
+					(end 12.7 10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -120,224 +200,8 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 12.7 30.48 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 27.94 180)
-					(length 5.08)
-					(name "VBUS__1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 25.4 180)
-					(length 5.08)
-					(name "VBUS__2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 22.86 180)
-					(length 5.08)
-					(name "VBUS__3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 17.78 180)
-					(length 5.08)
-					(name "D1+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 15.24 180)
-					(length 5.08)
-					(name "D1-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 10.16 180)
-					(length 5.08)
-					(name "D2+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 7.62 180)
-					(length 5.08)
-					(name "D2-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "RX1+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "RX1-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "TX1+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "TX1-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -7.62 180)
+				(pin passive line
+					(at -17.78 2.54 0)
 					(length 5.08)
 					(name "CC1"
 						(effects
@@ -354,8 +218,44 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
+				(pin passive line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -5.08 0)
 					(length 5.08)
 					(name "SBU1"
 						(effects
@@ -372,116 +272,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 12.7 -15.24 180)
-					(length 5.08)
-					(name "RX2+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -17.78 180)
-					(length 5.08)
-					(name "RX2-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -20.32 180)
-					(length 5.08)
-					(name "TX2+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -22.86 180)
-					(length 5.08)
-					(name "TX2-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -25.4 180)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -27.94 180)
-					(length 5.08)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 -33.02 180)
+				(pin passive line
+					(at -17.78 -10.16 0)
 					(length 5.08)
 					(name "SHIELD"
 						(effects
@@ -498,10 +290,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 -35.56 180)
+				(pin passive line
+					(at -17.78 -10.16 0)
 					(length 5.08)
-					(name "SHIELD__1"
+					(name "SHIELD"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -516,10 +308,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 -38.1 180)
+				(pin passive line
+					(at -17.78 -10.16 0)
 					(length 5.08)
-					(name "SHIELD__2"
+					(name "SHIELD"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -534,10 +326,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 -40.64 180)
+				(pin passive line
+					(at -17.78 -10.16 0)
 					(length 5.08)
-					(name "SHIELD__3"
+					(name "SHIELD"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -553,16 +345,16 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -43.18 180)
+					(at 17.78 7.62 180)
 					(length 5.08)
-					(name "SHIELD__4"
+					(name "VBUS"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "S5"
+					(number "A4_B9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -571,16 +363,88 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -45.72 180)
+					(at 17.78 7.62 180)
 					(length 5.08)
-					(name "SHIELD__5"
+					(name "VBUS"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "S6"
+					(number "B4_A9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -589,7 +453,7 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -48.26 180)
+					(at 17.78 -10.16 180)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -598,7 +462,7 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "A1_B12"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -607,52 +471,16 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -50.8 180)
+					(at 17.78 -10.16 180)
 					(length 5.08)
-					(name "GND__1"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 -53.34 180)
-					(length 5.08)
-					(name "GND__2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 -55.88 180)
-					(length 5.08)
-					(name "GND__3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B12"
+					(number "B1_A12"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2697,12 +2525,6 @@
 		(uuid "04408fbe-be0f-4bc7-9b0f-b3a08f73abd2")
 	)
 	(junction
-		(at 90.17 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05ee7ef3-cae5-46c7-9182-1b2d1c21a137")
-	)
-	(junction
 		(at 35.56 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2737,12 +2559,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f2be8e9-0df7-40bd-8766-f09d833f4f8c")
-	)
-	(junction
-		(at 90.17 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1349afea-ff73-48e4-9d29-ccf17eca985c")
 	)
 	(junction
 		(at 171.45 27.94)
@@ -2791,6 +2607,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bb3b0f4-9360-4b07-92a4-bd3bd00bf68d")
+	)
+	(junction
+		(at 115.57 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2df9b27c-729e-4a75-95a4-cc2a03948128")
 	)
 	(junction
 		(at 181.61 99.06)
@@ -2889,18 +2711,6 @@
 		(uuid "51ad6ce4-49ed-45c3-9f4a-2bb1ac62c00f")
 	)
 	(junction
-		(at 87.63 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51b62a03-f1dc-4ebe-a6fe-ead55c544b9c")
-	)
-	(junction
-		(at 90.17 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52690e0d-e4c6-4a8e-ba4b-c3359e1643de")
-	)
-	(junction
 		(at 194.31 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2955,22 +2765,10 @@
 		(uuid "65afe28b-7a2e-4ea0-b795-03853fc8454d")
 	)
 	(junction
-		(at 90.17 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "685432cb-f4a6-4cc2-b06a-12009a93cc4e")
-	)
-	(junction
 		(at 133.35 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "709314f8-551c-49cb-a9bf-738560d4192e")
-	)
-	(junction
-		(at 90.17 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "728cf703-c7fb-4f28-8c23-3ac2744e9ed0")
 	)
 	(junction
 		(at 158.75 43.18)
@@ -3007,12 +2805,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7af5e6f8-856f-4467-a8c3-b88357bc3882")
-	)
-	(junction
-		(at 88.9 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dca47d0-a8c6-4ca0-bfbc-582ad72adc81")
 	)
 	(junction
 		(at 181.61 82.55)
@@ -3147,18 +2939,6 @@
 		(uuid "a10a043b-1d90-4be2-966b-af51d2504ec3")
 	)
 	(junction
-		(at 97.79 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a551df34-48cb-4da2-aad0-60280839dd90")
-	)
-	(junction
-		(at 88.9 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8139665-08cd-4aaa-987d-5665d8117139")
-	)
-	(junction
 		(at 143.51 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3231,12 +3011,6 @@
 		(uuid "c2154e8d-f8c4-4f2a-840c-60d13a5649a5")
 	)
 	(junction
-		(at 90.17 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c59701ee-4414-420a-ba0c-8f83812b9039")
-	)
-	(junction
 		(at 120.65 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3265,18 +3039,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca6b7c80-8574-4577-9188-df637c30edc9")
-	)
-	(junction
-		(at 90.17 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb021b72-168c-4153-a4ad-8c3a8a4ef6ec")
-	)
-	(junction
-		(at 90.17 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbf81a52-c080-4a3d-b2fe-ddc8a04db1c0")
 	)
 	(junction
 		(at 143.51 64.77)
@@ -3309,6 +3071,12 @@
 		(uuid "daba9990-eaef-49c3-abe8-238a10c3db84")
 	)
 	(junction
+		(at 115.57 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db1b1380-b603-4a19-9d14-3f6fd086f389")
+	)
+	(junction
 		(at 207.01 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3331,12 +3099,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df1efe66-01f9-4fba-b91d-edb9c258cbca")
-	)
-	(junction
-		(at 88.9 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e05d0ae9-a148-4859-8c8d-e09593b87a70")
 	)
 	(junction
 		(at 107.95 59.69)
@@ -3405,12 +3167,6 @@
 		(uuid "ef709fcb-054b-422c-99e0-37f98aad6977")
 	)
 	(junction
-		(at 88.9 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f03a2dad-141a-497c-a1da-39ff22e5526a")
-	)
-	(junction
 		(at 143.51 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3435,12 +3191,6 @@
 		(uuid "f7c05d41-6b36-4e56-a736-ebdad3d4eba7")
 	)
 	(junction
-		(at 90.17 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7df0716-7482-49b1-a6f9-be4c85399590")
-	)
-	(junction
 		(at 118.11 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3459,48 +3209,16 @@
 		(uuid "fe46955e-3886-4236-a4d3-7614a684fd31")
 	)
 	(no_connect
-		(at 86.36 137.16)
-		(uuid "15aab1fa-2cee-46f7-afb9-e44a298b8185")
-	)
-	(no_connect
-		(at 86.36 154.94)
-		(uuid "1e55ec8e-3e26-4db8-b141-ac57d34cb30e")
-	)
-	(no_connect
-		(at 86.36 142.24)
-		(uuid "46c0dfc5-bc4b-4e5d-b333-3b2b4aca905d")
+		(at 113.03 146.05)
+		(uuid "2f2eb51a-e9a4-4b63-9afb-5324cb0a52dc")
 	)
 	(no_connect
 		(at 22.86 43.18)
 		(uuid "68390ac2-78c3-4b1d-8cfa-a673f6c1d8c2")
 	)
 	(no_connect
-		(at 86.36 134.62)
-		(uuid "68e5f76b-4728-48d4-9003-e71330c189cd")
-	)
-	(no_connect
-		(at 86.36 165.1)
-		(uuid "6ec5bfad-ba47-410e-960d-77938749a30b")
-	)
-	(no_connect
-		(at 86.36 152.4)
-		(uuid "97f618b3-91cf-4b59-ab45-7324dbbe80ab")
-	)
-	(no_connect
-		(at 86.36 147.32)
-		(uuid "9800f8e4-6b1d-4ff7-9c37-244dc7a1f3c2")
-	)
-	(no_connect
-		(at 86.36 157.48)
-		(uuid "ded01025-3fff-476c-b014-9f6f1cfa0240")
-	)
-	(no_connect
-		(at 86.36 139.7)
-		(uuid "e5172c44-b9fd-4792-a910-578b23914dbf")
-	)
-	(no_connect
-		(at 86.36 160.02)
-		(uuid "fb8b9da1-f61a-4656-88a7-a7c6ea4b7392")
+		(at 77.47 153.67)
+		(uuid "7097edf0-0497-4b87-b9a6-013988e0c378")
 	)
 	(wire
 		(pts
@@ -3521,16 +3239,6 @@
 			(type default)
 		)
 		(uuid "0257465b-a857-413a-93dd-6d920c105219")
-	)
-	(wire
-		(pts
-			(xy 87.63 121.92) (xy 90.17 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04cfec4d-74eb-4e26-9208-75330c2736e1")
 	)
 	(wire
 		(pts
@@ -3584,26 +3292,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 144.78) (xy 97.79 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aac8530-d0c9-4cf0-8028-4067af54f4a7")
-	)
-	(wire
-		(pts
-			(xy 88.9 111.76) (xy 88.9 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b126838-1a00-4a51-99ea-170e4b85fd38")
-	)
-	(wire
-		(pts
 			(xy 104.14 99.06) (xy 118.11 99.06)
 		)
 		(stroke
@@ -3644,6 +3332,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 153.67) (xy 119.38 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e3efe8-7266-4420-9a5a-c68df62d3607")
+	)
+	(wire
+		(pts
 			(xy 196.85 77.47) (xy 196.85 93.98)
 		)
 		(stroke
@@ -3651,16 +3349,6 @@
 			(type default)
 		)
 		(uuid "12543caf-47dd-4a6a-ad0a-31f3f9352e10")
-	)
-	(wire
-		(pts
-			(xy 90.17 175.26) (xy 90.17 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13ca05ef-3102-475a-bd17-5ffca8e30895")
 	)
 	(wire
 		(pts
@@ -3694,16 +3382,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 162.56) (xy 97.79 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17bc6c22-3375-493f-9b1c-6f2a9ea0c045")
-	)
-	(wire
-		(pts
 			(xy 133.35 59.69) (xy 133.35 77.47)
 		)
 		(stroke
@@ -3734,16 +3412,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 170.18) (xy 90.17 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c145139-77ba-43b3-bb27-a36c0735acee")
-	)
-	(wire
-		(pts
 			(xy 194.31 64.77) (xy 207.01 64.77)
 		)
 		(stroke
@@ -3771,16 +3439,6 @@
 			(type default)
 		)
 		(uuid "206a54d0-dff7-42a5-ba62-701d7524122c")
-	)
-	(wire
-		(pts
-			(xy 88.9 105.41) (xy 88.9 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20759943-a64e-4a0f-8a64-f94c0632f621")
 	)
 	(wire
 		(pts
@@ -3994,36 +3652,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 119.38) (xy 90.17 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "350162a1-31f5-400c-87ca-7f4c462f0965")
-	)
-	(wire
-		(pts
-			(xy 86.36 111.76) (xy 88.9 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3885bd0b-48ed-47e3-949b-c41ead9b5fdd")
-	)
-	(wire
-		(pts
-			(xy 90.17 185.42) (xy 90.17 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "391cf66e-ef7b-42b7-9b66-b058bc49c8ad")
-	)
-	(wire
-		(pts
 			(xy 247.65 43.18) (xy 247.65 59.69)
 		)
 		(stroke
@@ -4064,16 +3692,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 114.3) (xy 88.9 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e7a8c59-e939-4ba8-8184-c05192b2e800")
-	)
-	(wire
-		(pts
 			(xy 232.41 33.02) (xy 245.11 33.02)
 		)
 		(stroke
@@ -4081,16 +3699,6 @@
 			(type default)
 		)
 		(uuid "40b9d711-74ef-4a6d-9c11-4fa276987e91")
-	)
-	(wire
-		(pts
-			(xy 86.36 106.68) (xy 88.9 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "416b9e07-d80b-42e2-ae6a-791242c5cf56")
 	)
 	(wire
 		(pts
@@ -4124,16 +3732,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 193.04) (xy 90.17 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "431bf347-9cbc-4105-b8e7-6ec3185970aa")
-	)
-	(wire
-		(pts
 			(xy 171.45 21.59) (xy 171.45 27.94)
 		)
 		(stroke
@@ -4144,16 +3742,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 193.04) (xy 90.17 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47c030cd-51a2-4482-a107-fe5579f86d40")
-	)
-	(wire
-		(pts
 			(xy 143.51 99.06) (xy 156.21 99.06)
 		)
 		(stroke
@@ -4161,16 +3749,6 @@
 			(type default)
 		)
 		(uuid "48329201-6823-4d7d-a479-5b9b6b4f5ce0")
-	)
-	(wire
-		(pts
-			(xy 87.63 129.54) (xy 86.36 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d5252a1-65de-4a32-96b6-b2fe2f5f3a04")
 	)
 	(wire
 		(pts
@@ -4284,16 +3862,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 109.22) (xy 88.9 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58fdcdde-f13f-45d3-8078-9bca2bba8d77")
-	)
-	(wire
-		(pts
 			(xy 247.65 59.69) (xy 247.65 77.47)
 		)
 		(stroke
@@ -4351,26 +3919,6 @@
 			(type default)
 		)
 		(uuid "5c84ac73-b96c-41df-bbca-b5cff3e3cafd")
-	)
-	(wire
-		(pts
-			(xy 96.52 109.22) (xy 88.9 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e2205a2-5312-4132-8035-f044b3686231")
-	)
-	(wire
-		(pts
-			(xy 86.36 119.38) (xy 88.9 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e535275-08a9-4619-9e1e-a27218bbeac4")
 	)
 	(wire
 		(pts
@@ -4441,6 +3989,16 @@
 			(type default)
 		)
 		(uuid "646ff4d6-ed85-4dc1-b73b-1a5ab7bb3da6")
+	)
+	(wire
+		(pts
+			(xy 115.57 158.75) (xy 113.03 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64cd79ff-30dd-43f5-8221-658413393a4a")
 	)
 	(wire
 		(pts
@@ -4534,16 +4092,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 162.56) (xy 90.17 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "712f06c0-b513-4d5b-a0d3-1d82ab80e5d7")
-	)
-	(wire
-		(pts
 			(xy 158.75 27.94) (xy 158.75 43.18)
 		)
 		(stroke
@@ -4591,16 +4139,6 @@
 			(type default)
 		)
 		(uuid "74c4ddf1-046d-4f6b-bfa3-371ee1c5535d")
-	)
-	(wire
-		(pts
-			(xy 86.36 170.18) (xy 90.17 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75f3abd6-8a10-43bd-a09d-7e2a4addf2d8")
 	)
 	(wire
 		(pts
@@ -4654,6 +4192,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 146.05) (xy 72.39 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cbdfc13-6c4b-4d35-bddc-0fd5fcb2ef7b")
+	)
+	(wire
+		(pts
 			(xy 184.15 77.47) (xy 184.15 93.98)
 		)
 		(stroke
@@ -4694,6 +4242,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 140.97) (xy 113.03 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "842d6a0c-03e0-406a-be0c-10d2db862435")
+	)
+	(wire
+		(pts
 			(xy 273.05 27.94) (xy 273.05 43.18)
 		)
 		(stroke
@@ -4704,13 +4262,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 121.92) (xy 97.79 121.92)
+			(xy 115.57 140.97) (xy 116.84 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87a1147e-ba2f-4879-ae4f-75f7d2ad99f1")
+		(uuid "879a28ea-b404-403e-a1c5-771f94e79942")
 	)
 	(wire
 		(pts
@@ -4721,16 +4279,6 @@
 			(type default)
 		)
 		(uuid "89a894e4-1947-4e3b-bb8e-1f190ac8aafd")
-	)
-	(wire
-		(pts
-			(xy 86.36 172.72) (xy 90.17 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a7e8989-3f5f-4803-a5a9-4046fe6e8a69")
 	)
 	(wire
 		(pts
@@ -4774,16 +4322,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 180.34) (xy 90.17 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "902dcb49-278f-4487-8c62-6646f7bf274a")
-	)
-	(wire
-		(pts
 			(xy 35.56 176.53) (xy 35.56 177.8)
 		)
 		(stroke
@@ -4791,16 +4329,6 @@
 			(type default)
 		)
 		(uuid "92b54047-d7d9-4f2d-8772-f1fe8aa7eae7")
-	)
-	(wire
-		(pts
-			(xy 88.9 119.38) (xy 88.9 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "936ab142-d872-4d62-b320-d60c0390d17b")
 	)
 	(wire
 		(pts
@@ -4814,16 +4342,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 119.38) (xy 97.79 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "984e3676-82e9-4afd-a532-c8769e61a572")
-	)
-	(wire
-		(pts
 			(xy 53.34 81.28) (xy 57.15 81.28)
 		)
 		(stroke
@@ -4834,16 +4352,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 172.72) (xy 90.17 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d5f75a5-fc1d-4308-bc8e-ef1cc73f4fbd")
-	)
-	(wire
-		(pts
 			(xy 38.1 111.76) (xy 38.1 113.03)
 		)
 		(stroke
@@ -4851,16 +4359,6 @@
 			(type default)
 		)
 		(uuid "9f1dec65-6b4c-4f0c-afe7-ca5c971ed0f2")
-	)
-	(wire
-		(pts
-			(xy 90.17 177.8) (xy 90.17 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fbed71d-b406-4b26-94a3-c1c9409a96bb")
 	)
 	(wire
 		(pts
@@ -4901,6 +4399,16 @@
 			(type default)
 		)
 		(uuid "a52fc885-e3a7-4962-87d5-df442b4dff9d")
+	)
+	(wire
+		(pts
+			(xy 127 153.67) (xy 124.46 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a849c816-ab56-40c2-a1a7-1f5a00e5dbae")
 	)
 	(wire
 		(pts
@@ -5054,6 +4562,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 158.75) (xy 116.84 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a46318-c21d-4a2f-9b81-9bfabb532733")
+	)
+	(wire
+		(pts
 			(xy 245.11 64.77) (xy 257.81 64.77)
 		)
 		(stroke
@@ -5061,26 +4579,6 @@
 			(type default)
 		)
 		(uuid "b730d734-1824-41a5-91a4-7b6c8245c685")
-	)
-	(wire
-		(pts
-			(xy 86.36 121.92) (xy 87.63 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b928a546-375f-47c5-bca1-7144d49e4228")
-	)
-	(wire
-		(pts
-			(xy 86.36 182.88) (xy 90.17 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9b819f0-4221-49fc-b6d6-01fa43205826")
 	)
 	(wire
 		(pts
@@ -5104,36 +4602,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 193.04) (xy 90.17 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd2568f4-139e-4caa-a1b7-0b3d8cc0745e")
-	)
-	(wire
-		(pts
-			(xy 87.63 121.92) (xy 87.63 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf2b89b3-84c8-4d40-bd76-d63424f4d4df")
-	)
-	(wire
-		(pts
-			(xy 86.36 187.96) (xy 90.17 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfa66ac1-d1fa-4eb5-8cbf-8b4165047971")
-	)
-	(wire
-		(pts
 			(xy 232.41 64.77) (xy 245.11 64.77)
 		)
 		(stroke
@@ -5141,26 +4609,6 @@
 			(type default)
 		)
 		(uuid "c1d3092c-9655-4557-97fa-f361838fd386")
-	)
-	(wire
-		(pts
-			(xy 86.36 177.8) (xy 90.17 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c20b49ef-b204-4207-9803-eeb7d0112737")
-	)
-	(wire
-		(pts
-			(xy 88.9 127) (xy 86.36 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c22e677f-345b-4684-ae3d-8118cdba114c")
 	)
 	(wire
 		(pts
@@ -5174,6 +4622,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 160.02) (xy 115.57 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35aa002-6daf-4b2b-83b4-1a91f8100fda")
+	)
+	(wire
+		(pts
 			(xy 46.99 170.18) (xy 46.99 168.91)
 		)
 		(stroke
@@ -5184,16 +4642,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 109.22) (xy 88.9 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7312e84-66d1-4745-b00e-44e6382b183a")
-	)
-	(wire
-		(pts
 			(xy 35.56 167.64) (xy 35.56 168.91)
 		)
 		(stroke
@@ -5201,6 +4649,16 @@
 			(type default)
 		)
 		(uuid "c81fc267-f161-44ac-9625-ae11438c2754")
+	)
+	(wire
+		(pts
+			(xy 68.58 147.32) (xy 68.58 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1b32a3-f363-48f9-b5af-aa5cfc4c9238")
 	)
 	(wire
 		(pts
@@ -5244,26 +4702,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 185.42) (xy 90.17 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfa14c52-aa6b-4d09-921a-b38789f6f676")
-	)
-	(wire
-		(pts
-			(xy 90.17 182.88) (xy 90.17 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfa510aa-eaa3-4f12-af6a-951ada70549a")
-	)
-	(wire
-		(pts
 			(xy 133.35 77.47) (xy 133.35 93.98)
 		)
 		(stroke
@@ -5274,26 +4712,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 162.56) (xy 97.79 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d10aa81d-1c7a-4a4d-93ff-1b70f9d18429")
-	)
-	(wire
-		(pts
-			(xy 90.17 187.96) (xy 90.17 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2f09f23-e113-46ce-84a5-6939c021f7ae")
-	)
-	(wire
-		(pts
 			(xy 16.51 60.96) (xy 22.86 60.96)
 		)
 		(stroke
@@ -5301,16 +4719,6 @@
 			(type default)
 		)
 		(uuid "d35a2b12-7b5b-44db-968f-1360fa19866f")
-	)
-	(wire
-		(pts
-			(xy 86.36 175.26) (xy 90.17 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4b0f7aa-364e-4bdf-92f0-6797f1bb2975")
 	)
 	(wire
 		(pts
@@ -5341,16 +4749,6 @@
 			(type default)
 		)
 		(uuid "d8a60437-fd32-4fb8-9050-b61d22a6c865")
-	)
-	(wire
-		(pts
-			(xy 97.79 144.78) (xy 97.79 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d92eb8b9-f9f9-4ba7-8ac1-9f00ef11cc1b")
 	)
 	(wire
 		(pts
@@ -5394,16 +4792,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 180.34) (xy 90.17 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de69a234-b648-4839-b4a1-df89bb864e87")
-	)
-	(wire
-		(pts
 			(xy 194.31 48.26) (xy 207.01 48.26)
 		)
 		(stroke
@@ -5411,16 +4799,6 @@
 			(type default)
 		)
 		(uuid "df92d758-b8df-4c73-a556-5eb507265694")
-	)
-	(wire
-		(pts
-			(xy 86.36 114.3) (xy 88.9 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0f87dc5-c532-4e7b-b23b-bf804b068d7b")
 	)
 	(wire
 		(pts
@@ -5474,16 +4852,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 144.78) (xy 90.17 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2c809ef-e8e7-4288-b15d-89a0303fd02c")
-	)
-	(wire
-		(pts
 			(xy 234.95 59.69) (xy 234.95 77.47)
 		)
 		(stroke
@@ -5524,6 +4892,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 139.7) (xy 115.57 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee35dd68-7e7a-4a5e-bf60-52fadcfe4dbf")
+	)
+	(wire
+		(pts
 			(xy 257.81 64.77) (xy 270.51 64.77)
 		)
 		(stroke
@@ -5541,26 +4919,6 @@
 			(type default)
 		)
 		(uuid "f1176a24-6954-4c2a-bb97-4f72ac83c780")
-	)
-	(wire
-		(pts
-			(xy 86.36 190.5) (xy 90.17 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2ff57d3-ba10-4550-91a9-ccc7fe0111a7")
-	)
-	(wire
-		(pts
-			(xy 90.17 190.5) (xy 90.17 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f33add1d-a218-4d2c-8b37-e2bb5b91d9eb")
 	)
 	(wire
 		(pts
@@ -5644,6 +5002,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 154.94) (xy 127 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe695112-d5cf-47a2-baaf-35bc170f4c5d")
+	)
+	(wire
+		(pts
 			(xy 168.91 33.02) (xy 181.61 33.02)
 		)
 		(stroke
@@ -5651,6 +5019,28 @@
 			(type default)
 		)
 		(uuid "ff17a5e4-0259-4b28-964f-f8ac08b8569c")
+	)
+	(global_label "D+"
+		(shape input)
+		(at 77.47 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07d8f58a-2e8d-402f-a728-1ba9c894e0e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.6424 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "col0"
 		(shape input)
@@ -5784,6 +5174,28 @@
 			)
 		)
 	)
+	(global_label "D-"
+		(shape input)
+		(at 77.47 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3dea8b55-e16a-4e94-9e17-eb326b78ce58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.6424 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row2"
 		(shape input)
 		(at 104.14 64.77 180)
@@ -5874,7 +5286,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 22.86 53.34 180)
+		(at 17.78 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5884,7 +5296,7 @@
 		)
 		(uuid "61244642-5d95-4cc1-9004-1c5c460cfac7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.0324 53.34 0)
+			(at 11.9524 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5912,6 +5324,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D+"
+		(shape input)
+		(at 113.03 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c1c7737-27bf-46c6-812c-7ac005af786a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.8576 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5960,6 +5394,28 @@
 			)
 		)
 	)
+	(global_label "D-"
+		(shape input)
+		(at 113.03 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78343b65-217a-404a-a9fa-aaa3d2d4d357")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.8576 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col1"
 		(shape input)
 		(at 120.65 21.59 90)
@@ -5973,28 +5429,6 @@
 		(uuid "856a0d20-ed74-4e88-aaa4-2d593ee98044")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 120.65 14.4925 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D+"
-		(shape input)
-		(at 97.79 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "87ba67f8-3dbb-43be-9a13-f1874cac2d4e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.6176 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,28 +5526,6 @@
 			)
 		)
 	)
-	(global_label "D-"
-		(shape input)
-		(at 97.79 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b61c9944-8e95-4cf9-bc5e-d3028708ca52")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.6176 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "col7"
 		(shape input)
 		(at 196.85 21.59 90)
@@ -6182,7 +5594,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 22.86 55.88 180)
+		(at 17.78 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6192,7 +5604,7 @@
 		)
 		(uuid "d502159d-aa60-4b5e-8a08-73d9127ef128")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.0324 55.88 0)
+			(at 11.9524 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6307,7 +5719,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "S"
 			(at 138.43 54.61 0)
 			(effects
 				(font
@@ -6315,7 +5727,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 138.43 54.61 0)
 			(effects
 				(font
@@ -6374,7 +5786,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "Z"
 			(at 125.73 72.39 0)
 			(effects
 				(font
@@ -6382,7 +5794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 125.73 72.39 0)
 			(effects
 				(font
@@ -6425,6 +5837,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 116.84 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0458113d-eeda-4b3b-8472-06358ce419fb")
+		(property "Reference" "#FLG04"
+			(at 118.745 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 120.65 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 116.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2568bad5-0b03-4948-8db0-52e43c07a495")
+		)
+		(instances
+			(project "my-own-keyboard"
+				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 151.13 77.47 0)
 		(unit 1)
@@ -6441,7 +5920,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "C"
 			(at 151.13 72.39 0)
 			(effects
 				(font
@@ -6449,7 +5928,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 151.13 72.39 0)
 			(effects
 				(font
@@ -6508,7 +5987,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "9"
 			(at 227.33 22.86 0)
 			(effects
 				(font
@@ -6516,7 +5995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 227.33 22.86 0)
 			(effects
 				(font
@@ -6575,7 +6054,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "Tab"
 			(at 113.03 38.1 0)
 			(effects
 				(font
@@ -6583,7 +6062,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.5U"
 			(at 113.03 38.1 0)
 			(effects
 				(font
@@ -6642,7 +6121,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "R-shift"
 			(at 252.73 72.39 0)
 			(effects
 				(font
@@ -6650,7 +6129,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_2.75U"
 			(at 252.73 72.39 0)
 			(effects
 				(font
@@ -6702,7 +6181,7 @@
 		(dnp no)
 		(uuid "0db0f80f-945c-4cb6-bec4-9aaca5ddd564")
 		(property "Reference" "D15"
-			(at 114.554 44.958 90)
+			(at 113.03 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6719,7 +6198,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 118.11 45.72 90)
 			(effects
 				(font
@@ -6796,7 +6275,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "-"
 			(at 252.73 22.86 0)
 			(effects
 				(font
@@ -6804,7 +6283,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 252.73 22.86 0)
 			(effects
 				(font
@@ -6847,73 +6326,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 96.52 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f30e3dd-b92e-4a71-8281-dfb388bb279f")
-		(property "Reference" "#FLG01"
-			(at 98.425 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 100.33 109.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 96.52 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1876ab1e-425c-4cb8-a12a-3f26a429f486")
-		)
-		(instances
-			(project ""
-				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 125.73 43.18 0)
 		(unit 1)
@@ -6930,7 +6342,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "Q"
 			(at 125.73 38.1 0)
 			(effects
 				(font
@@ -6938,7 +6350,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 125.73 38.1 0)
 			(effects
 				(font
@@ -6990,7 +6402,7 @@
 		(dnp no)
 		(uuid "10816342-9445-473c-9788-ebc1fde103d1")
 		(property "Reference" "D24"
-			(at 228.854 44.958 90)
+			(at 227.076 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,7 +6419,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 232.41 45.72 90)
 			(effects
 				(font
@@ -7077,7 +6489,7 @@
 		(dnp no)
 		(uuid "1184ac26-8ded-4a88-85a0-a75a1b469b92")
 		(property "Reference" "D39"
-			(at 241.554 61.468 90)
+			(at 240.03 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +6506,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 245.11 62.23 90)
 			(effects
 				(font
@@ -7171,15 +6583,15 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
-			(at 252.73 54.61 0)
+		(property "Value" "'"
+			(at 252.73 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 252.73 54.61 0)
 			(effects
 				(font
@@ -7238,7 +6650,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "A"
 			(at 125.73 54.61 0)
 			(effects
 				(font
@@ -7246,7 +6658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 125.73 54.61 0)
 			(effects
 				(font
@@ -7298,7 +6710,7 @@
 		(dnp no)
 		(uuid "1480a08c-dfb9-4b9a-b867-77ffebce29f7")
 		(property "Reference" "D52"
-			(at 241.554 79.248 90)
+			(at 239.776 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7315,7 +6727,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 245.11 80.01 90)
 			(effects
 				(font
@@ -7385,7 +6797,7 @@
 		(dnp no)
 		(uuid "17b11834-c7c5-435b-be56-4f2b1411e554")
 		(property "Reference" "D18"
-			(at 152.654 44.958 90)
+			(at 150.876 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7402,7 +6814,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 156.21 45.72 90)
 			(effects
 				(font
@@ -7463,72 +6875,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 97.79 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "198120fe-0501-4c41-9133-dcc05fe03896")
-		(property "Reference" "#PWR011"
-			(at 97.79 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 97.79 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "acc95b1d-f9b3-47ac-957b-9e17d4b619d6")
-		)
-		(instances
-			(project ""
-				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Small")
 		(at 143.51 30.48 90)
 		(unit 1)
@@ -7555,7 +6901,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 143.51 30.48 90)
 			(effects
 				(font
@@ -7698,7 +7044,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "B"
 			(at 176.53 72.39 0)
 			(effects
 				(font
@@ -7706,7 +7052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 176.53 72.39 0)
 			(effects
 				(font
@@ -7758,7 +7104,7 @@
 		(dnp no)
 		(uuid "1c80a90f-946a-4c6e-a0cc-bd5140a1a05b")
 		(property "Reference" "D34"
-			(at 178.054 61.468 90)
+			(at 176.53 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7775,7 +7121,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 181.61 62.23 90)
 			(effects
 				(font
@@ -7845,7 +7191,7 @@
 		(dnp no)
 		(uuid "1ceb559f-7841-435b-ac91-c8a727bd7317")
 		(property "Reference" "D46"
-			(at 165.354 79.248 90)
+			(at 163.576 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,7 +7208,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 168.91 80.01 90)
 			(effects
 				(font
@@ -7932,7 +7278,7 @@
 		(dnp no)
 		(uuid "1eadd957-4a80-4a46-82cd-eb10af62c93f")
 		(property "Reference" "D22"
-			(at 203.454 44.958 90)
+			(at 201.676 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7949,7 +7295,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 207.01 45.72 90)
 			(effects
 				(font
@@ -8026,7 +7372,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "3"
 			(at 151.13 22.86 0)
 			(effects
 				(font
@@ -8034,7 +7380,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 151.13 22.86 0)
 			(effects
 				(font
@@ -8086,7 +7432,7 @@
 		(dnp no)
 		(uuid "21f6780e-f35f-425e-8d4b-8034189375b1")
 		(property "Reference" "D26"
-			(at 254.254 44.958 90)
+			(at 252.476 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8103,7 +7449,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 257.81 45.72 90)
 			(effects
 				(font
@@ -8188,7 +7534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 35.56 144.78 0)
 			(effects
 				(font
@@ -8263,7 +7609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 39.37 172.72 0)
 			(effects
 				(font
@@ -8300,6 +7646,247 @@
 			(project "my-own-keyboard"
 				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5077CR-16SMC2-BK-TR:5077CR-16SMC2-BK-TR")
+		(at 95.25 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25784067-3a63-4331-b7d6-f5bc4841f889")
+		(property "Reference" "J2"
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5077CR-16SMC2-BK-TR"
+			(at 95.25 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "5077CR-16SMC2-BK-TR:NELTRON_5077CR-16SMC2-BK-TR"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Neltron"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.26mm"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/5077CR-16SMC2-BK-TR/Neltron/view-part/?ref=eda"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5077CR-16SMC2-BK-TR/Neltron/view-part/?ref=snap"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "5077CR-16SMC2-BK-TR"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "USB 3.1 C Type Female with Peg"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Neltron"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5077CR-16SMC2-BK-TR"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A4_B9"
+			(uuid "cc9a891c-25a8-4820-bb7a-0289b9795291")
+		)
+		(pin "S2"
+			(uuid "50d33a98-88d7-4ce9-86d2-ea763719473e")
+		)
+		(pin "S4"
+			(uuid "8081a1cb-5012-4553-9b01-76c2651e5f87")
+		)
+		(pin "A8"
+			(uuid "f11784ae-1b0c-4d9f-87a8-6723a38db8a3")
+		)
+		(pin "S3"
+			(uuid "d30afdcd-66ac-4dd4-9aeb-477dc939409b")
+		)
+		(pin "B4_A9"
+			(uuid "744e1037-dca9-4331-a9ab-5a1d1d928d4f")
+		)
+		(pin "A6"
+			(uuid "efacdcb1-905e-45fa-a5a0-142702f80212")
+		)
+		(pin "A5"
+			(uuid "0ad6adf5-90d8-4c8a-a383-b7ef76e21de5")
+		)
+		(pin "A7"
+			(uuid "072073b8-7edf-4c26-8fd2-4c9678f743df")
+		)
+		(pin "S1"
+			(uuid "c3834cbf-db8c-443b-bc86-2b15c3dd17db")
+		)
+		(pin "B1_A12"
+			(uuid "db97e858-3ca2-431e-82d5-f233904f4238")
+		)
+		(pin "B7"
+			(uuid "7efab3b6-b328-48f6-a6a3-e7f7d499c36b")
+		)
+		(pin "B6"
+			(uuid "d3875e09-4dd5-4d87-803f-f5c75ea774a0")
+		)
+		(pin "B5"
+			(uuid "af36790c-14e2-4e62-a6fe-172b6864cf1b")
+		)
+		(pin "B8"
+			(uuid "594d9e54-1611-4c9c-95ba-21796a39293c")
+		)
+		(pin "A1_B12"
+			(uuid "1775974b-3e79-4600-9163-2f27c111dca0")
+		)
+		(instances
+			(project ""
+				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8388,7 +7975,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "\\"
 			(at 278.13 38.1 0)
 			(effects
 				(font
@@ -8396,7 +7983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.5U"
 			(at 278.13 38.1 0)
 			(effects
 				(font
@@ -8440,15 +8027,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 92.71 144.78 90)
+		(at 74.93 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2be37d76-9102-4089-a8bb-2c273a90e849")
+		(uuid "2fc3398b-69d4-4146-abee-6c8b1eccd0ef")
 		(property "Reference" "R4"
-			(at 92.71 144.78 90)
+			(at 74.93 146.05 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8456,15 +8043,15 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 92.71 143.002 90)
+			(at 74.93 144.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 92.71 144.78 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 74.93 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,7 +8060,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 144.78 0)
+			(at 74.93 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8482,7 +8069,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 92.71 144.78 0)
+			(at 74.93 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8491,13 +8078,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "11adc8b9-a7e6-46c3-ba00-c7718e033b38")
+			(uuid "d96e5cb1-44c8-468c-8ef0-8cc3a2a753f9")
 		)
 		(pin "2"
-			(uuid "ae110daf-baf2-491f-8967-446cdcc472de")
+			(uuid "73a28c62-1e5c-4d5e-a03c-394afa85419f")
 		)
 		(instances
-			(project ""
+			(project "my-own-keyboard"
 				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
 					(reference "R4")
 					(unit 1)
@@ -8522,7 +8109,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "Menu"
 			(at 189.23 88.9 0)
 			(effects
 				(font
@@ -8530,7 +8117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.25U"
 			(at 189.23 88.9 0)
 			(effects
 				(font
@@ -8654,7 +8241,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "R"
 			(at 163.83 38.1 0)
 			(effects
 				(font
@@ -8662,7 +8249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 163.83 38.1 0)
 			(effects
 				(font
@@ -8721,7 +8308,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "I"
 			(at 214.63 38.1 0)
 			(effects
 				(font
@@ -8729,7 +8316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 214.63 38.1 0)
 			(effects
 				(font
@@ -8781,7 +8368,7 @@
 		(dnp no)
 		(uuid "3352faad-e434-4f0b-bd81-ed1f101d70c2")
 		(property "Reference" "D55"
-			(at 127.254 95.758 90)
+			(at 125.476 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8798,7 +8385,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 130.81 96.52 90)
 			(effects
 				(font
@@ -8868,7 +8455,7 @@
 		(dnp no)
 		(uuid "344ee4ab-ecdd-441c-82a0-dd5c36defcc1")
 		(property "Reference" "D53"
-			(at 254.254 79.248 90)
+			(at 252.476 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,7 +8472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 257.81 80.01 90)
 			(effects
 				(font
@@ -9020,7 +8607,7 @@
 		(dnp no)
 		(uuid "37ef5c38-c789-4277-ac23-49542e3318f9")
 		(property "Reference" "D31"
-			(at 139.954 61.468 90)
+			(at 138.43 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9037,7 +8624,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 143.51 62.23 90)
 			(effects
 				(font
@@ -9107,7 +8694,7 @@
 		(dnp no)
 		(uuid "39f469f9-f0e6-475c-9f22-f24e4f206d06")
 		(property "Reference" "D27"
-			(at 266.954 44.958 90)
+			(at 265.176 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9124,7 +8711,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 270.51 45.72 90)
 			(effects
 				(font
@@ -9201,7 +8788,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "W"
 			(at 138.43 38.1 0)
 			(effects
 				(font
@@ -9209,7 +8796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 138.43 38.1 0)
 			(effects
 				(font
@@ -9261,7 +8848,7 @@
 		(dnp no)
 		(uuid "40796386-cd90-4daf-bc38-4a776a194090")
 		(property "Reference" "D21"
-			(at 190.754 44.958 90)
+			(at 188.976 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9278,7 +8865,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 194.31 45.72 90)
 			(effects
 				(font
@@ -9355,7 +8942,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "L-shift"
 			(at 113.03 72.39 0)
 			(effects
 				(font
@@ -9363,7 +8950,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_2.25U"
 			(at 113.03 72.39 0)
 			(effects
 				(font
@@ -9406,6 +8993,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 68.58 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45f7419e-b129-4091-9726-fd81ccb66c03")
+		(property "Reference" "#PWR019"
+			(at 68.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72ec07fb-5283-4e62-9726-d9106f53deda")
+		)
+		(instances
+			(project "my-own-keyboard"
+				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 168.91 30.48 90)
 		(unit 1)
@@ -9432,7 +9085,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 168.91 30.48 90)
 			(effects
 				(font
@@ -9519,7 +9172,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 219.71 30.48 90)
 			(effects
 				(font
@@ -9596,7 +9249,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" ";"
 			(at 240.03 54.61 0)
 			(effects
 				(font
@@ -9604,7 +9257,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 240.03 54.61 0)
 			(effects
 				(font
@@ -9663,7 +9316,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "Capslock"
 			(at 113.03 54.61 0)
 			(effects
 				(font
@@ -9671,7 +9324,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.75U"
 			(at 113.03 54.61 0)
 			(effects
 				(font
@@ -9789,7 +9442,7 @@
 		(dnp no)
 		(uuid "560b8578-dcde-424c-9a4a-4305f383eab2")
 		(property "Reference" "D36"
-			(at 203.454 61.468 90)
+			(at 201.93 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9806,7 +9459,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 207.01 62.23 90)
 			(effects
 				(font
@@ -9883,7 +9536,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "V"
 			(at 163.83 72.39 0)
 			(effects
 				(font
@@ -9891,7 +9544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 163.83 72.39 0)
 			(effects
 				(font
@@ -9943,7 +9596,7 @@
 		(dnp no)
 		(uuid "5c4cabb0-d796-4959-86cd-ab1f9e837377")
 		(property "Reference" "D17"
-			(at 139.954 44.958 90)
+			(at 138.43 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9960,7 +9613,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 143.51 45.72 90)
 			(effects
 				(font
@@ -10047,7 +9700,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 207.01 30.48 90)
 			(effects
 				(font
@@ -10124,7 +9777,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "6"
 			(at 189.23 22.86 0)
 			(effects
 				(font
@@ -10132,7 +9785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 189.23 22.86 0)
 			(effects
 				(font
@@ -10191,7 +9844,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "H"
 			(at 189.23 54.61 0)
 			(effects
 				(font
@@ -10199,7 +9852,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 189.23 54.61 0)
 			(effects
 				(font
@@ -10258,15 +9911,15 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
-			(at 113.03 22.86 0)
+		(property "Value" "`"
+			(at 113.03 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 113.03 22.86 0)
 			(effects
 				(font
@@ -10325,7 +9978,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "L-Ctrl"
 			(at 113.03 88.9 0)
 			(effects
 				(font
@@ -10333,7 +9986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.25U"
 			(at 113.03 88.9 0)
 			(effects
 				(font
@@ -10383,10 +10036,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "66d5a2cc-e7b1-4f00-a51b-b9d257bc0460")
 		(property "Reference" "R1"
-			(at 59.69 76.2 90)
+			(at 59.69 81.28 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10401,7 +10053,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 59.69 81.28 0)
 			(effects
 				(font
@@ -10444,6 +10096,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 115.57 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69d0d4ad-ca29-4b94-96ae-d8abd9abfa61")
+		(property "Reference" "#PWR015"
+			(at 115.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 115.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 115.57 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92f00e06-e8ea-4860-aef2-46a218ac6fbf")
+		)
+		(instances
+			(project "my-own-keyboard"
+				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 201.93 43.18 0)
 		(unit 1)
@@ -10460,7 +10178,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "U"
 			(at 201.93 38.1 0)
 			(effects
 				(font
@@ -10468,7 +10186,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 201.93 38.1 0)
 			(effects
 				(font
@@ -10527,7 +10245,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "."
 			(at 227.33 72.39 0)
 			(effects
 				(font
@@ -10535,7 +10253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 227.33 72.39 0)
 			(effects
 				(font
@@ -10587,7 +10305,7 @@
 		(dnp no)
 		(uuid "6f820d62-6aea-4bd8-bafc-a26b7751f904")
 		(property "Reference" "D19"
-			(at 165.354 44.958 90)
+			(at 163.576 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10604,7 +10322,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 168.91 45.72 90)
 			(effects
 				(font
@@ -10665,73 +10383,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 92.71 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7126fe27-591e-4bf5-9ef8-ff7ee690c8cc")
-		(property "Reference" "R2"
-			(at 92.71 119.38 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 92.71 117.602 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 92.71 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f85cc99-0cd5-49e8-afd3-a5479e71f0ae")
-		)
-		(pin "2"
-			(uuid "2110c174-d74d-45fa-83ea-0bda516f7782")
-		)
-		(instances
-			(project ""
-				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 189.23 43.18 0)
 		(unit 1)
@@ -10748,7 +10399,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "Y"
 			(at 189.23 38.1 0)
 			(effects
 				(font
@@ -10756,7 +10407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 189.23 38.1 0)
 			(effects
 				(font
@@ -10815,7 +10466,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "R-Alt"
 			(at 176.53 88.9 0)
 			(effects
 				(font
@@ -10823,7 +10474,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.25U"
 			(at 176.53 88.9 0)
 			(effects
 				(font
@@ -10882,7 +10533,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "/"
 			(at 240.03 72.39 0)
 			(effects
 				(font
@@ -10890,7 +10541,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 240.03 72.39 0)
 			(effects
 				(font
@@ -10942,7 +10593,7 @@
 		(dnp no)
 		(uuid "74b40b7a-9426-4c5a-9ec9-f88f88ef4737")
 		(property "Reference" "D48"
-			(at 190.754 79.248 90)
+			(at 188.976 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10959,7 +10610,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 194.31 80.01 90)
 			(effects
 				(font
@@ -11029,7 +10680,7 @@
 		(dnp no)
 		(uuid "74c025c7-095e-401b-8f24-c8eec7ba4097")
 		(property "Reference" "D30"
-			(at 127.254 61.468 90)
+			(at 125.73 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11046,7 +10697,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 130.81 62.23 90)
 			(effects
 				(font
@@ -11123,7 +10774,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "2"
 			(at 138.43 22.86 0)
 			(effects
 				(font
@@ -11131,7 +10782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 138.43 22.86 0)
 			(effects
 				(font
@@ -11387,7 +11038,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "M"
 			(at 201.93 72.39 0)
 			(effects
 				(font
@@ -11395,7 +11046,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 201.93 72.39 0)
 			(effects
 				(font
@@ -11438,6 +11089,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 127 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bf6e1bb-0756-48ef-beb3-fe1596fea241")
+		(property "Reference" "#PWR018"
+			(at 127 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.556 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2b7c29c-0ad5-4919-aaf9-35890157456a")
+		)
+		(instances
+			(project "my-own-keyboard"
+				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 121.92 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d5dbb32-54c6-45d4-8731-c0327a3abbef")
+		(property "Reference" "R5"
+			(at 121.92 153.67 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 121.92 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 121.92 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 121.92 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "addb4b37-1500-4515-ade5-2da81d02cb5d")
+		)
+		(pin "2"
+			(uuid "ffed06f9-ca5a-494f-b094-29bfd1850b8c")
+		)
+		(instances
+			(project "my-own-keyboard"
+				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 265.43 27.94 0)
 		(unit 1)
@@ -11454,7 +11237,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "="
 			(at 265.43 22.86 0)
 			(effects
 				(font
@@ -11462,7 +11245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 265.43 22.86 0)
 			(effects
 				(font
@@ -11521,7 +11304,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "["
 			(at 252.73 38.1 0)
 			(effects
 				(font
@@ -11529,7 +11312,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 252.73 38.1 0)
 			(effects
 				(font
@@ -11572,73 +11355,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 92.71 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "819c7193-6d0a-4a1d-8516-fc4cabca5fb9")
-		(property "Reference" "R3"
-			(at 92.71 121.92 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 92.71 123.952 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 92.71 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fda95f26-4e0e-4c84-90bc-2b4fc83a4709")
-		)
-		(pin "2"
-			(uuid "3c5eef1c-b5ff-4259-a116-ec46f1b7418f")
-		)
-		(instances
-			(project "my-own-keyboard"
-				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Small")
 		(at 232.41 62.23 90)
 		(unit 1)
@@ -11648,7 +11364,7 @@
 		(dnp no)
 		(uuid "82b69701-cbb1-4749-873e-4c432b2b9b40")
 		(property "Reference" "D38"
-			(at 228.854 61.468 90)
+			(at 227.33 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11665,7 +11381,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 232.41 62.23 90)
 			(effects
 				(font
@@ -11735,7 +11451,7 @@
 		(dnp no)
 		(uuid "834e7b0a-7759-4cab-992f-1f0a2d734d69")
 		(property "Reference" "D32"
-			(at 152.654 61.468 90)
+			(at 151.13 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11752,7 +11468,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 156.21 62.23 90)
 			(effects
 				(font
@@ -11813,6 +11529,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 20.32 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84e2aab0-767a-4ab8-bba0-a0a9d3dd14b7")
+		(property "Reference" "R2"
+			(at 20.32 53.34 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 20.32 51.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 20.32 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 20.32 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a168f4e7-44eb-496f-a618-06de4d61ae71")
+		)
+		(pin "2"
+			(uuid "22baf261-3a6e-4446-8b4a-80fb629de5e0")
+		)
+		(instances
+			(project "my-own-keyboard"
+				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 35.56 129.54 0)
 		(unit 1)
@@ -11837,7 +11620,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:ResetSW"
 			(at 35.56 124.46 0)
 			(effects
 				(font
@@ -11896,7 +11679,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "Space"
 			(at 151.13 88.9 0)
 			(effects
 				(font
@@ -11904,7 +11687,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_3U"
 			(at 151.13 88.9 0)
 			(effects
 				(font
@@ -11973,7 +11756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 24.13 172.72 0)
 			(effects
 				(font
@@ -12042,7 +11825,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 257.81 30.48 90)
 			(effects
 				(font
@@ -12112,7 +11895,7 @@
 		(dnp no)
 		(uuid "8b996f56-8452-45f3-b1e1-605df0a4cd52")
 		(property "Reference" "D40"
-			(at 254.254 61.468 90)
+			(at 252.73 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12129,7 +11912,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 257.81 62.23 90)
 			(effects
 				(font
@@ -12206,7 +11989,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "D"
 			(at 151.13 54.61 0)
 			(effects
 				(font
@@ -12214,7 +11997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 151.13 54.61 0)
 			(effects
 				(font
@@ -12281,7 +12064,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 39.37 147.32 0)
 			(effects
 				(font
@@ -12333,7 +12116,7 @@
 		(dnp no)
 		(uuid "92a7c2a7-ba21-439f-937f-00e6f54f0d13")
 		(property "Reference" "D43"
-			(at 127.254 79.248 90)
+			(at 125.476 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12350,7 +12133,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 130.81 80.01 90)
 			(effects
 				(font
@@ -12420,7 +12203,7 @@
 		(dnp no)
 		(uuid "93e86cd2-b25f-4961-8044-f32f7a802f17")
 		(property "Reference" "D35"
-			(at 190.754 61.468 90)
+			(at 189.23 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12437,7 +12220,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 194.31 62.23 90)
 			(effects
 				(font
@@ -12507,7 +12290,7 @@
 		(dnp no)
 		(uuid "94f0d927-f144-4123-aae5-2ad306b0bb88")
 		(property "Reference" "D61"
-			(at 203.454 95.758 90)
+			(at 201.676 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12524,7 +12307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 207.01 96.52 90)
 			(effects
 				(font
@@ -12611,7 +12394,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 245.11 30.48 90)
 			(effects
 				(font
@@ -12754,7 +12537,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "F"
 			(at 163.83 54.61 0)
 			(effects
 				(font
@@ -12762,7 +12545,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 163.83 54.61 0)
 			(effects
 				(font
@@ -12821,7 +12604,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "J"
 			(at 201.93 54.61 0)
 			(effects
 				(font
@@ -12829,7 +12612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 201.93 54.61 0)
 			(effects
 				(font
@@ -12961,7 +12744,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 39.37 142.24 0)
 			(effects
 				(font
@@ -13013,7 +12796,7 @@
 		(dnp no)
 		(uuid "a710252e-769b-4408-96d7-829ca2dbd06a")
 		(property "Reference" "D50"
-			(at 216.154 79.248 90)
+			(at 214.376 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13030,7 +12813,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 219.71 80.01 90)
 			(effects
 				(font
@@ -13107,7 +12890,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "Enter"
 			(at 265.43 54.61 0)
 			(effects
 				(font
@@ -13115,7 +12898,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_2.25U"
 			(at 265.43 54.61 0)
 			(effects
 				(font
@@ -13174,7 +12957,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "T"
 			(at 176.53 38.1 0)
 			(effects
 				(font
@@ -13182,7 +12965,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 176.53 38.1 0)
 			(effects
 				(font
@@ -13241,7 +13024,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "7"
 			(at 201.93 22.86 0)
 			(effects
 				(font
@@ -13249,7 +13032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 201.93 22.86 0)
 			(effects
 				(font
@@ -13292,276 +13075,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CX70M-24P1:CX70M-24P1")
-		(at 73.66 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9939eb4-16fc-45ba-917a-43f658a2db08")
-		(property "Reference" "J1"
-			(at 73.66 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CX70M-24P1"
-			(at 73.66 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CX70M-24P1:HRS_CX70M-24P1"
-			(at 73.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1"
-			(at 73.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 73.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "CX70M-24P1"
-			(at 73.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.66 mm"
-			(at 73.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Hirose Electric Co Ltd"
-			(at 73.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A6"
-			(uuid "c3ad6a52-7464-4187-8b69-5ae3f06e49df")
-		)
-		(pin "B8"
-			(uuid "9aa463cc-b5a1-4fba-993c-2e17d2a343fd")
-		)
-		(pin "A11"
-			(uuid "4f3fe409-699b-4cca-8e46-5294d28a7c00")
-		)
-		(pin "B11"
-			(uuid "4a425281-fb97-4133-a07a-1d33bfb46819")
-		)
-		(pin "B6"
-			(uuid "bc17212b-9845-4b06-bc87-d4cc960f8dbc")
-		)
-		(pin "A2"
-			(uuid "62237bb7-9788-4431-8309-230e581afd0f")
-		)
-		(pin "A5"
-			(uuid "03e20c5e-d1d5-401b-9d6a-e3779c76f431")
-		)
-		(pin "B5"
-			(uuid "3b8e1410-2348-4b76-bd05-6b48a9f24b6e")
-		)
-		(pin "A12"
-			(uuid "64bd07a9-6b43-4faf-b066-bc767ada2a0a")
-		)
-		(pin "A4"
-			(uuid "64007790-7463-4ed1-91cd-dac3eaabc401")
-		)
-		(pin "B4"
-			(uuid "5e93f67f-d795-421f-afef-5c79c0003265")
-		)
-		(pin "B7"
-			(uuid "2af29a98-c1cc-48f7-921c-a476b176e1db")
-		)
-		(pin "B9"
-			(uuid "07cdb177-3c09-489e-a0ae-cdd1cd1da037")
-		)
-		(pin "A8"
-			(uuid "aff18756-c5e5-42ef-afeb-8b6a2ee7796e")
-		)
-		(pin "A10"
-			(uuid "3063608a-ae6b-4100-be98-12d83bac2a37")
-		)
-		(pin "A7"
-			(uuid "f4948b05-8d6e-48c6-8fec-54f845615617")
-		)
-		(pin "A9"
-			(uuid "b92f908a-a872-45cb-baaa-690d49065e33")
-		)
-		(pin "B2"
-			(uuid "12ab6523-fc97-44e9-8c2e-571f0f51dfd3")
-		)
-		(pin "B3"
-			(uuid "c0af8827-37ce-417e-b226-2195c3931961")
-		)
-		(pin "B10"
-			(uuid "6014199e-d5a0-4fd1-b011-21f4e695e646")
-		)
-		(pin "S1"
-			(uuid "cec0448a-9757-4fec-a51d-9f3e1b10c310")
-		)
-		(pin "A3"
-			(uuid "46f366fc-bf40-4e52-a65f-ade1dfb76cbc")
-		)
-		(pin "S2"
-			(uuid "ddef94c6-5eb5-4776-9306-f90634287e7e")
-		)
-		(pin "S3"
-			(uuid "2120b17f-60b4-4c72-b73c-12fa9454b11b")
-		)
-		(pin "S4"
-			(uuid "e3c8b169-0898-43b2-8d8e-f93c31d3ca63")
-		)
-		(pin "A1"
-			(uuid "cf15d475-b7c5-4d5a-b282-d97ed731619c")
-		)
-		(pin "B1"
-			(uuid "0c232372-7a02-4ad8-8341-8e944ddd2ac3")
-		)
-		(pin "S5"
-			(uuid "80607940-ce94-424e-bbf9-6406f2c50f78")
-		)
-		(pin "B12"
-			(uuid "32d91671-8487-4921-bb1b-fd58227cf59a")
-		)
-		(pin "S6"
-			(uuid "262cd404-eac6-48dd-b5c7-17c614b95bf1")
-		)
-		(instances
-			(project ""
-				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 92.71 162.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9f74be6-4b03-42b8-9e0d-322fdd916ef6")
-		(property "Reference" "R5"
-			(at 92.71 162.56 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 92.71 160.782 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 92.71 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac1d7cf5-a150-49fc-9297-d399e5fcc987")
-		)
-		(pin "2"
-			(uuid "d2bc2a79-2567-48b5-a288-3b744f12aeca")
-		)
-		(instances
-			(project "my-own-keyboard"
-				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Small")
 		(at 143.51 80.01 90)
 		(unit 1)
@@ -13571,7 +13084,7 @@
 		(dnp no)
 		(uuid "aa4723bd-9719-4f00-a1dc-205e2ca15ac0")
 		(property "Reference" "D44"
-			(at 139.954 79.248 90)
+			(at 138.176 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13588,7 +13101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 143.51 80.01 90)
 			(effects
 				(font
@@ -13658,7 +13171,7 @@
 		(dnp no)
 		(uuid "ab050f22-38bc-4d78-9c82-f1b297d17c0b")
 		(property "Reference" "D56"
-			(at 139.954 95.758 90)
+			(at 138.176 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13675,7 +13188,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 143.51 96.52 90)
 			(effects
 				(font
@@ -13745,7 +13258,7 @@
 		(dnp no)
 		(uuid "ab771f97-eec4-415b-963e-876372e6a9a4")
 		(property "Reference" "D57"
-			(at 152.654 95.758 90)
+			(at 150.876 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13762,7 +13275,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 156.21 96.52 90)
 			(effects
 				(font
@@ -13849,7 +13362,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 181.61 30.48 90)
 			(effects
 				(font
@@ -13904,72 +13417,6 @@
 			(project "my-own-keyboard"
 				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 88.9 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af75c031-b434-46ff-b683-f63e7c699850")
-		(property "Reference" "#PWR010"
-			(at 88.9 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 88.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 88.9 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f16b3e6e-2ed2-4eee-a67e-1526b6020f92")
-		)
-		(instances
-			(project ""
-				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -14068,7 +13515,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 194.31 30.48 90)
 			(effects
 				(font
@@ -14145,7 +13592,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "K"
 			(at 214.63 54.61 0)
 			(effects
 				(font
@@ -14153,7 +13600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 214.63 54.61 0)
 			(effects
 				(font
@@ -14212,7 +13659,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "G"
 			(at 176.53 54.61 0)
 			(effects
 				(font
@@ -14220,7 +13667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 176.53 54.61 0)
 			(effects
 				(font
@@ -14344,7 +13791,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "Backspace"
 			(at 278.13 22.86 0)
 			(effects
 				(font
@@ -14352,7 +13799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_2U"
 			(at 278.13 22.86 0)
 			(effects
 				(font
@@ -14421,7 +13868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 270.51 30.48 90)
 			(effects
 				(font
@@ -14498,7 +13945,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "]"
 			(at 265.43 38.1 0)
 			(effects
 				(font
@@ -14506,7 +13953,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 265.43 38.1 0)
 			(effects
 				(font
@@ -14549,6 +13996,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 20.32 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4dd0a21-f6c1-411d-aa35-7f88d13182aa")
+		(property "Reference" "R3"
+			(at 20.32 55.88 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 20.32 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 20.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 20.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d53ac77-fb42-4653-b069-b8795f241e19")
+		)
+		(pin "2"
+			(uuid "0961f057-239f-4b0a-b890-b13220c247c5")
+		)
+		(instances
+			(project "my-own-keyboard"
+				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 181.61 80.01 90)
 		(unit 1)
@@ -14558,7 +14072,7 @@
 		(dnp no)
 		(uuid "c55739a8-c108-42fd-91e6-54695b11ae48")
 		(property "Reference" "D47"
-			(at 178.054 79.248 90)
+			(at 176.276 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14575,7 +14089,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 181.61 80.01 90)
 			(effects
 				(font
@@ -14645,7 +14159,7 @@
 		(dnp no)
 		(uuid "c681768a-1c2a-4490-9cd9-99bbd778456c")
 		(property "Reference" "D45"
-			(at 152.654 79.248 90)
+			(at 150.876 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14662,7 +14176,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 156.21 80.01 90)
 			(effects
 				(font
@@ -14732,7 +14246,7 @@
 		(dnp no)
 		(uuid "c69df540-6155-4079-b39a-1ffcafaca18c")
 		(property "Reference" "D23"
-			(at 216.154 44.958 90)
+			(at 214.376 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14749,7 +14263,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 219.71 45.72 90)
 			(effects
 				(font
@@ -14810,6 +14324,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 116.84 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8853d4a-8443-44d2-8f1f-2d5cad98e8e0")
+		(property "Reference" "#FLG03"
+			(at 118.745 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 120.65 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 116.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "970777b5-3463-4af2-aabb-8bd060d2ee67")
+		)
+		(instances
+			(project "my-own-keyboard"
+				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 194.31 96.52 90)
 		(unit 1)
@@ -14819,7 +14400,7 @@
 		(dnp no)
 		(uuid "c979331a-c3bd-4457-af9f-e09e7a470c32")
 		(property "Reference" "D60"
-			(at 190.754 95.758 90)
+			(at 188.976 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14836,7 +14417,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 194.31 96.52 90)
 			(effects
 				(font
@@ -14906,7 +14487,7 @@
 		(dnp no)
 		(uuid "cc53f995-f4ec-4706-bc46-95c9ced16ca2")
 		(property "Reference" "D20"
-			(at 178.054 44.958 90)
+			(at 176.276 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14923,7 +14504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 181.61 45.72 90)
 			(effects
 				(font
@@ -14993,7 +14574,7 @@
 		(dnp no)
 		(uuid "cdd7a1e2-9c35-4283-9076-5eabbc277413")
 		(property "Reference" "D28"
-			(at 279.654 44.958 90)
+			(at 277.876 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15010,7 +14591,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 283.21 45.72 90)
 			(effects
 				(font
@@ -15080,7 +14661,7 @@
 		(dnp no)
 		(uuid "d270f533-95bd-4063-b08a-c57cdb3b2b09")
 		(property "Reference" "D25"
-			(at 241.554 44.958 90)
+			(at 239.776 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15097,7 +14678,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 245.11 45.72 90)
 			(effects
 				(font
@@ -15158,73 +14739,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 91.44 193.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5bfc2f4-b70c-4213-9bcd-760073a56ff7")
-		(property "Reference" "#FLG02"
-			(at 93.345 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 95.25 193.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 91.44 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5a4c64b-0bf0-42ce-b2ac-d8b2b259174d")
-		)
-		(instances
-			(project "my-own-keyboard"
-				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Small")
 		(at 270.51 62.23 90)
 		(unit 1)
@@ -15234,7 +14748,7 @@
 		(dnp no)
 		(uuid "d5d94e61-f029-4595-a3d0-84638e058cc1")
 		(property "Reference" "D41"
-			(at 266.954 61.468 90)
+			(at 265.43 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15251,7 +14765,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 270.51 62.23 90)
 			(effects
 				(font
@@ -15338,7 +14852,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 118.11 30.48 90)
 			(effects
 				(font
@@ -15425,7 +14939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 31.75 172.72 0)
 			(effects
 				(font
@@ -15494,7 +15008,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 283.21 30.48 90)
 			(effects
 				(font
@@ -15571,7 +15085,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "4"
 			(at 163.83 22.86 0)
 			(effects
 				(font
@@ -15579,7 +15093,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 163.83 22.86 0)
 			(effects
 				(font
@@ -15622,6 +15136,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 77.47 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc424c4d-0158-4fe2-b28e-75b90012e8de")
+		(property "Reference" "#PWR017"
+			(at 77.47 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d356aafb-75ab-44dc-844f-1a251b0e27a9")
+		)
+		(instances
+			(project "my-own-keyboard"
+				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 232.41 80.01 90)
 		(unit 1)
@@ -15631,7 +15211,7 @@
 		(dnp no)
 		(uuid "dc475682-b4c9-4bcf-b097-c49356fbfa1b")
 		(property "Reference" "D51"
-			(at 228.854 79.248 90)
+			(at 227.076 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15648,7 +15228,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 232.41 80.01 90)
 			(effects
 				(font
@@ -15725,7 +15305,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "X"
 			(at 138.43 72.39 0)
 			(effects
 				(font
@@ -15733,7 +15313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 138.43 72.39 0)
 			(effects
 				(font
@@ -15792,7 +15372,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "P"
 			(at 240.03 38.1 0)
 			(effects
 				(font
@@ -15800,7 +15380,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 240.03 38.1 0)
 			(effects
 				(font
@@ -15869,7 +15449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.99 172.72 0)
 			(effects
 				(font
@@ -15928,7 +15508,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "N"
 			(at 189.23 72.39 0)
 			(effects
 				(font
@@ -15936,7 +15516,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 189.23 72.39 0)
 			(effects
 				(font
@@ -15995,7 +15575,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "L"
 			(at 227.33 54.61 0)
 			(effects
 				(font
@@ -16003,7 +15583,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 227.33 54.61 0)
 			(effects
 				(font
@@ -16072,7 +15652,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 232.41 30.48 90)
 			(effects
 				(font
@@ -16142,7 +15722,7 @@
 		(dnp no)
 		(uuid "e892ee23-a88b-4898-aedf-8760408f5cd6")
 		(property "Reference" "D42"
-			(at 114.554 79.248 90)
+			(at 112.776 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16159,7 +15739,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 118.11 80.01 90)
 			(effects
 				(font
@@ -16236,7 +15816,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "Fn"
 			(at 163.83 88.9 0)
 			(effects
 				(font
@@ -16244,7 +15824,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_3U"
 			(at 163.83 88.9 0)
 			(effects
 				(font
@@ -16303,7 +15883,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "R-Ctrl"
 			(at 201.93 88.9 0)
 			(effects
 				(font
@@ -16311,7 +15891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.25U"
 			(at 201.93 88.9 0)
 			(effects
 				(font
@@ -16446,7 +16026,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 16.51 63.5 0)
 			(effects
 				(font
@@ -16498,7 +16078,7 @@
 		(dnp no)
 		(uuid "ee8d6988-e055-4fb4-97d6-4e69404061e0")
 		(property "Reference" "D58"
-			(at 165.354 95.758 90)
+			(at 163.576 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16515,7 +16095,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 168.91 96.52 90)
 			(effects
 				(font
@@ -16592,7 +16172,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "8"
 			(at 214.63 22.86 0)
 			(effects
 				(font
@@ -16600,7 +16180,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 214.63 22.86 0)
 			(effects
 				(font
@@ -16659,7 +16239,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "5"
 			(at 176.53 22.86 0)
 			(effects
 				(font
@@ -16667,7 +16247,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 176.53 22.86 0)
 			(effects
 				(font
@@ -16736,7 +16316,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 130.81 30.48 90)
 			(effects
 				(font
@@ -16806,7 +16386,7 @@
 		(dnp no)
 		(uuid "f2a3f945-f7fa-4ec1-9e67-95a5896f488e")
 		(property "Reference" "D54"
-			(at 114.554 95.758 90)
+			(at 112.776 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16823,7 +16403,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 118.11 96.52 90)
 			(effects
 				(font
@@ -16900,7 +16480,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "L-Alt"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -16908,7 +16488,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.25U"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -17032,7 +16612,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "E"
 			(at 151.13 38.1 0)
 			(effects
 				(font
@@ -17040,7 +16620,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 151.13 38.1 0)
 			(effects
 				(font
@@ -17109,7 +16689,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 156.21 30.48 90)
 			(effects
 				(font
@@ -17186,7 +16766,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "win"
 			(at 125.73 88.9 0)
 			(effects
 				(font
@@ -17194,7 +16774,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.25U"
 			(at 125.73 88.9 0)
 			(effects
 				(font
@@ -17253,7 +16833,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" ","
 			(at 214.63 72.39 0)
 			(effects
 				(font
@@ -17261,7 +16841,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 214.63 72.39 0)
 			(effects
 				(font
@@ -17313,7 +16893,7 @@
 		(dnp no)
 		(uuid "f5e02feb-ea76-41aa-bc28-c0665b9cfcff")
 		(property "Reference" "D29"
-			(at 114.554 61.468 90)
+			(at 113.03 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17330,7 +16910,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 118.11 62.23 90)
 			(effects
 				(font
@@ -17400,7 +16980,7 @@
 		(dnp no)
 		(uuid "f8e8087e-cf78-44de-939e-69a98ba6b058")
 		(property "Reference" "D16"
-			(at 127.254 44.958 90)
+			(at 125.476 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17417,7 +16997,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 130.81 45.72 90)
 			(effects
 				(font
@@ -17478,6 +17058,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 115.57 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fac10c9d-fecf-4d26-b7d4-cd2197ffa96d")
+		(property "Reference" "#PWR016"
+			(at 115.57 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51e12f24-fb0f-4fd3-a639-e69dce5092a9")
+		)
+		(instances
+			(project "my-own-keyboard"
+				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 207.01 80.01 90)
 		(unit 1)
@@ -17487,7 +17133,7 @@
 		(dnp no)
 		(uuid "fb64af83-078e-4404-b48c-4722bd5ba139")
 		(property "Reference" "D49"
-			(at 203.454 79.248 90)
+			(at 201.676 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17504,7 +17150,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 207.01 80.01 90)
 			(effects
 				(font
@@ -17581,7 +17227,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "1"
 			(at 125.73 22.86 0)
 			(effects
 				(font
@@ -17589,7 +17235,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 125.73 22.86 0)
 			(effects
 				(font
@@ -17641,7 +17287,7 @@
 		(dnp no)
 		(uuid "fdd0e384-69f2-4189-84ef-31580e210865")
 		(property "Reference" "D37"
-			(at 216.154 61.468 90)
+			(at 214.63 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17658,7 +17304,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 219.71 62.23 90)
 			(effects
 				(font
@@ -17719,72 +17365,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 90.17 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe707115-af81-42ac-b711-81cb070b9d6f")
-		(property "Reference" "#PWR012"
-			(at 90.17 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ca96b91-a38a-4e33-921c-33fe5342ff12")
-		)
-		(instances
-			(project "my-own-keyboard"
-				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 227.33 43.18 0)
 		(unit 1)
@@ -17801,7 +17381,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "O"
 			(at 227.33 38.1 0)
 			(effects
 				(font
@@ -17809,7 +17389,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 227.33 38.1 0)
 			(effects
 				(font
@@ -17868,7 +17448,7 @@
 				)
 			)
 		)
-		(property "Value" "Key_SW"
+		(property "Value" "0"
 			(at 240.03 22.86 0)
 			(effects
 				(font
@@ -17876,7 +17456,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
 			(at 240.03 22.86 0)
 			(effects
 				(font
@@ -17928,7 +17508,7 @@
 		(dnp no)
 		(uuid "ff502467-3ac0-4d02-b33b-08304b3fc5d8")
 		(property "Reference" "D59"
-			(at 178.054 95.758 90)
+			(at 176.276 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17945,7 +17525,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 181.61 96.52 90)
 			(effects
 				(font
@@ -18015,7 +17595,7 @@
 		(dnp no)
 		(uuid "ff996dce-97b1-4f87-812b-ca4d451844b9")
 		(property "Reference" "D33"
-			(at 165.354 61.468 90)
+			(at 163.83 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18032,7 +17612,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:D3_TH_SMD"
 			(at 168.91 62.23 90)
 			(effects
 				(font
