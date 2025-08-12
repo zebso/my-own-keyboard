@@ -1134,6 +1134,394 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:RotaryEncoder_Switch"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch"
+				(at 0 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 -2.794)
+					(mid -3.0988 -0.0635)
+					(end -0.381 2.667)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Microchip_ATmega:ATmega32U4-A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2939,6 +3327,12 @@
 		(uuid "a10a043b-1d90-4be2-966b-af51d2504ec3")
 	)
 	(junction
+		(at 209.55 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a13e90cd-cc3c-46dc-8bc2-31adea5a7c1d")
+	)
+	(junction
 		(at 143.51 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2973,6 +3367,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae49ad8f-127e-4508-94a4-e99a3f01a45e")
+	)
+	(junction
+		(at 207.01 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aea14b64-17a8-45eb-8c6f-b192471fbf93")
 	)
 	(junction
 		(at 39.37 168.91)
@@ -3213,12 +3613,32 @@
 		(uuid "2f2eb51a-e9a4-4b63-9afb-5324cb0a52dc")
 	)
 	(no_connect
+		(at 53.34 27.94)
+		(uuid "31a6d7b6-44c7-4b5b-ac3c-d91ecf6d68b1")
+	)
+	(no_connect
+		(at 53.34 35.56)
+		(uuid "5f617807-4665-4512-9d08-39b0f5bd1014")
+	)
+	(no_connect
 		(at 22.86 43.18)
 		(uuid "68390ac2-78c3-4b1d-8cfa-a673f6c1d8c2")
 	)
 	(no_connect
 		(at 77.47 153.67)
 		(uuid "7097edf0-0497-4b87-b9a6-013988e0c378")
+	)
+	(no_connect
+		(at 53.34 30.48)
+		(uuid "b925991d-4fd0-4243-a68e-9d3e1f88b69b")
+	)
+	(no_connect
+		(at 53.34 71.12)
+		(uuid "d759dbea-c639-49d9-8a08-3df573bfa845")
+	)
+	(no_connect
+		(at 53.34 33.02)
+		(uuid "f3479cce-a157-4d23-b984-144b8531b4f4")
 	)
 	(wire
 		(pts
@@ -4012,6 +4432,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 88.9) (xy 209.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "672bb6f0-95d0-4119-a424-a40b92705ad7")
+	)
+	(wire
+		(pts
 			(xy 232.41 48.26) (xy 245.11 48.26)
 		)
 		(stroke
@@ -4059,6 +4489,16 @@
 			(type default)
 		)
 		(uuid "6cc89f7d-ec68-4765-8584-0db58d6656fd")
+	)
+	(wire
+		(pts
+			(xy 219.71 88.9) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ddc2591-e6cf-4860-b8d9-f4e8bcb80a15")
 	)
 	(wire
 		(pts
@@ -4219,6 +4659,16 @@
 			(type default)
 		)
 		(uuid "7f7b9963-fad9-4cd9-8648-e889aa39763d")
+	)
+	(wire
+		(pts
+			(xy 207.01 99.06) (xy 219.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810c56fd-50db-4d4a-95ba-183e4bbf67cb")
 	)
 	(wire
 		(pts
@@ -4719,6 +5169,16 @@
 			(type default)
 		)
 		(uuid "d35a2b12-7b5b-44db-968f-1360fa19866f")
+	)
+	(wire
+		(pts
+			(xy 234.95 91.44) (xy 247.65 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d491c004-5cb0-4598-bcd2-09b7378036df")
 	)
 	(wire
 		(pts
@@ -5306,6 +5766,28 @@
 			)
 		)
 	)
+	(global_label "RE_A"
+		(shape input)
+		(at 234.95 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63912aa2-1190-434a-829c-294a8506c5c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.4104 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row0"
 		(shape input)
 		(at 104.14 33.02 180)
@@ -5517,6 +5999,28 @@
 		(uuid "9f1f14e4-d826-47be-b6d2-3ea7bc177b65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.05 14.4925 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RE_B"
+		(shape input)
+		(at 234.95 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba73f770-d7a4-443a-a99b-07c7352bbf0f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.5918 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9895,6 +10399,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 227.33 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "637d2498-8161-4a84-bb0b-a0d99f15216f")
+		(property "Reference" "SW63"
+			(at 227.33 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_Switch"
+			(at 231.14 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm"
+			(at 231.14 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 227.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "6076687a-182f-4808-a6be-c1e4538baf6f")
+		)
+		(pin "B"
+			(uuid "06ac03e6-5aad-4649-930a-55b1d61af614")
+		)
+		(pin "C"
+			(uuid "27613ab0-1e8d-447e-8f94-42e6a54545df")
+		)
+		(pin "S1"
+			(uuid "44a0e94c-9748-4794-a0b5-4e614d4a483d")
+		)
+		(pin "S2"
+			(uuid "fbf68b34-302b-46a8-a4d8-dbaca0eb561e")
+		)
+		(instances
+			(project ""
+				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
+					(reference "SW63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 113.03 27.94 0)
 		(unit 1)
@@ -13643,6 +14223,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 247.65 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8028ed6-89c0-40f2-a9a8-365dd6c3ebec")
+		(property "Reference" "#PWR010"
+			(at 247.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25ac8627-5ef5-46c1-a639-6fa342702362")
+		)
+		(instances
+			(project ""
+				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 176.53 59.69 0)
 		(unit 1)
@@ -15130,6 +15776,93 @@
 			(project "my-own-keyboard"
 				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
 					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 219.71 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db7b03af-c75b-420a-a48d-e380172552aa")
+		(property "Reference" "D62"
+			(at 214.376 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 209.804 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "kbd:D3_TH_SMD"
+			(at 219.71 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 219.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 219.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 219.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7342b1c-2d3e-42bb-a7fe-961b5bfc562f")
+		)
+		(pin "1"
+			(uuid "214f3d38-efc3-4c8b-bbd5-cb0abc192414")
+		)
+		(instances
+			(project "my-own-keyboard"
+				(path "/51c7c7c0-f0da-4ec8-af07-216bef7e3317"
+					(reference "D62")
 					(unit 1)
 				)
 			)
