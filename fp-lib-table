@@ -3,4 +3,5 @@
   (lib (name "BrownSugar_KBD")(type "KiCad")(uri "${KIPRJMOD}/BrownSugar_KBD_KiCad_Library/BrownSugar_KBD/BrownSugar_KBD.pretty")(options "")(descr ""))
   (lib (name "kbd")(type "KiCad")(uri "${KIPRJMOD}/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
   (lib (name "5077CR-16SMC2-BK-TR")(type "KiCad")(uri "${KIPRJMOD}/5077CR-16SMC2-BK-TR/5077CR-16SMC2-BK-TR.pretty")(options "")(descr ""))
+  (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/logo.pretty")(options "")(descr ""))
 )
