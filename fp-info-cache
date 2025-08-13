@@ -1,4 +1,4 @@
-26650877277853575
+26645618146376061
 5077CR-16SMC2-BK-TR
 NELTRON_5077CR-16SMC2-BK-TR
 
@@ -106281,32 +106281,11 @@ Breakaway_Tabs
 0
 0
 kbd
-D3_SMD
-Resitance 3 pas
-R
-0
-4
-2
-kbd
-D3_SMD_v2
-Resitance 3 pas
-R
-0
-2
-2
-kbd
-D3_TH
-Resitance 3 pas
-R
-0
-4
-2
-kbd
 D3_TH_SMD
 Resitance 3 pas
 R
 0
-4
+6
 2
 kbd
 LED_WS2812B-PLCC4
