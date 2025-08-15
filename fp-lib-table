@@ -1,6 +1,5 @@
 (fp_lib_table
   (version 7)
-  (lib (name "original_library")(type "KiCad")(uri "${KIPRJMOD}/original_library.pretty")(options "")(descr ""))
   (lib (name "keyswitch")(type "KiCad")(uri "${KIPRJMOD}/footprints/keyswitch.pretty")(options "")(descr ""))
   (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/footprints/logo.pretty")(options "")(descr ""))
   (lib (name "others")(type "KiCad")(uri "${KIPRJMOD}/footprints/others.pretty")(options "")(descr ""))

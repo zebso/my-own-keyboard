@@ -828,6 +828,7 @@
 		)
 	)
 	(model "${KIPRJMOD}/3d-models/silent_alpaca_mx_keyswitch.step"
+		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
