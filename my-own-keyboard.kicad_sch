@@ -13223,7 +13223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:ResetSW"
+		(property "Footprint" "original_library:ResetSW TSHA-T-2.5B2-19SH"
 			(at 96.52 147.32 0)
 			(effects
 				(font
