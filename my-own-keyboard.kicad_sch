@@ -7109,7 +7109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 119.38 87.63 0)
 			(effects
 				(font
@@ -7176,7 +7176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 106.68 105.41 0)
 			(effects
 				(font
@@ -7310,7 +7310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 132.08 105.41 0)
 			(effects
 				(font
@@ -7377,7 +7377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 208.28 55.88 0)
 			(effects
 				(font
@@ -7444,7 +7444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.5U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1.5U"
 			(at 93.98 71.12 0)
 			(effects
 				(font
@@ -7511,7 +7511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_2.75U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_2.75U"
 			(at 246.38 105.41 0)
 			(effects
 				(font
@@ -7580,7 +7580,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 99.06 78.74 90)
 			(effects
 				(font
@@ -7665,7 +7665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 233.68 55.88 0)
 			(effects
 				(font
@@ -7732,7 +7732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 106.68 71.12 0)
 			(effects
 				(font
@@ -7801,7 +7801,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 213.36 78.74 90)
 			(effects
 				(font
@@ -7888,7 +7888,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 226.06 95.25 90)
 			(effects
 				(font
@@ -7973,7 +7973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 233.68 87.63 0)
 			(effects
 				(font
@@ -8040,7 +8040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 106.68 87.63 0)
 			(effects
 				(font
@@ -8109,7 +8109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 226.06 113.03 90)
 			(effects
 				(font
@@ -8196,7 +8196,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 137.16 78.74 90)
 			(effects
 				(font
@@ -8283,7 +8283,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 124.46 63.5 90)
 			(effects
 				(font
@@ -8434,7 +8434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 157.48 105.41 0)
 			(effects
 				(font
@@ -8503,7 +8503,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 162.56 95.25 90)
 			(effects
 				(font
@@ -8590,7 +8590,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 149.86 113.03 90)
 			(effects
 				(font
@@ -8677,7 +8677,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 187.96 78.74 90)
 			(effects
 				(font
@@ -8762,7 +8762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 132.08 55.88 0)
 			(effects
 				(font
@@ -8831,7 +8831,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 238.76 78.74 90)
 			(effects
 				(font
@@ -9365,7 +9365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.5U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1.5U"
 			(at 259.08 71.12 0)
 			(effects
 				(font
@@ -9499,7 +9499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.25U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1.25U"
 			(at 220.98 121.92 0)
 			(effects
 				(font
@@ -9631,7 +9631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 144.78 71.12 0)
 			(effects
 				(font
@@ -9698,7 +9698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 195.58 71.12 0)
 			(effects
 				(font
@@ -9767,7 +9767,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 111.76 129.54 90)
 			(effects
 				(font
@@ -9854,7 +9854,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 251.46 113.03 90)
 			(effects
 				(font
@@ -10006,7 +10006,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 124.46 95.25 90)
 			(effects
 				(font
@@ -10159,7 +10159,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 251.46 78.74 90)
 			(effects
 				(font
@@ -10244,7 +10244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -10313,7 +10313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 175.26 78.74 90)
 			(effects
 				(font
@@ -10398,7 +10398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_2.25U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_2.25U"
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -10533,7 +10533,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 149.86 63.5 90)
 			(effects
 				(font
@@ -10620,7 +10620,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 200.66 63.5 90)
 			(effects
 				(font
@@ -10705,7 +10705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 220.98 87.63 0)
 			(effects
 				(font
@@ -10852,7 +10852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.75U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1.75U"
 			(at 93.98 87.63 0)
 			(effects
 				(font
@@ -10986,7 +10986,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 187.96 95.25 90)
 			(effects
 				(font
@@ -11071,7 +11071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 144.78 105.41 0)
 			(effects
 				(font
@@ -11140,7 +11140,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 124.46 78.74 90)
 			(effects
 				(font
@@ -11227,7 +11227,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 187.96 63.5 90)
 			(effects
 				(font
@@ -11312,7 +11312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 170.18 55.88 0)
 			(effects
 				(font
@@ -11379,7 +11379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 170.18 87.63 0)
 			(effects
 				(font
@@ -11522,7 +11522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 93.98 55.88 0)
 			(effects
 				(font
@@ -11589,7 +11589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.25U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1.25U"
 			(at 93.98 121.92 0)
 			(effects
 				(font
@@ -11789,7 +11789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 182.88 71.12 0)
 			(effects
 				(font
@@ -11856,7 +11856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 208.28 105.41 0)
 			(effects
 				(font
@@ -11925,7 +11925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 149.86 78.74 90)
 			(effects
 				(font
@@ -12010,7 +12010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 170.18 71.12 0)
 			(effects
 				(font
@@ -12077,7 +12077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.25U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1.25U"
 			(at 208.28 121.92 0)
 			(effects
 				(font
@@ -12144,7 +12144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 220.98 105.41 0)
 			(effects
 				(font
@@ -12213,7 +12213,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 175.26 113.03 90)
 			(effects
 				(font
@@ -12300,7 +12300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 111.76 95.25 90)
 			(effects
 				(font
@@ -12385,7 +12385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 119.38 55.88 0)
 			(effects
 				(font
@@ -12649,7 +12649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 182.88 105.41 0)
 			(effects
 				(font
@@ -12848,7 +12848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 246.38 55.88 0)
 			(effects
 				(font
@@ -12915,7 +12915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 233.68 71.12 0)
 			(effects
 				(font
@@ -12984,7 +12984,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 213.36 95.25 90)
 			(effects
 				(font
@@ -13071,7 +13071,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 137.16 95.25 90)
 			(effects
 				(font
@@ -13290,7 +13290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_3U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_3U"
 			(at 132.08 121.92 0)
 			(effects
 				(font
@@ -13428,7 +13428,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 238.76 63.5 90)
 			(effects
 				(font
@@ -13515,7 +13515,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 238.76 95.25 90)
 			(effects
 				(font
@@ -13600,7 +13600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 132.08 87.63 0)
 			(effects
 				(font
@@ -13736,7 +13736,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 111.76 113.03 90)
 			(effects
 				(font
@@ -13823,7 +13823,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 175.26 95.25 90)
 			(effects
 				(font
@@ -13910,7 +13910,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 238.76 129.54 90)
 			(effects
 				(font
@@ -13997,7 +13997,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 226.06 63.5 90)
 			(effects
 				(font
@@ -14148,7 +14148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 144.78 87.63 0)
 			(effects
 				(font
@@ -14215,7 +14215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 182.88 87.63 0)
 			(effects
 				(font
@@ -14485,7 +14485,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 200.66 113.03 90)
 			(effects
 				(font
@@ -14570,7 +14570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_2.25U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_2.25U"
 			(at 246.38 87.63 0)
 			(effects
 				(font
@@ -14637,7 +14637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 157.48 71.12 0)
 			(effects
 				(font
@@ -14704,7 +14704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 182.88 55.88 0)
 			(effects
 				(font
@@ -14773,7 +14773,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 124.46 113.03 90)
 			(effects
 				(font
@@ -14860,7 +14860,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 124.46 129.54 90)
 			(effects
 				(font
@@ -14947,7 +14947,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 137.16 129.54 90)
 			(effects
 				(font
@@ -15034,7 +15034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 162.56 63.5 90)
 			(effects
 				(font
@@ -15187,7 +15187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 175.26 63.5 90)
 			(effects
 				(font
@@ -15272,7 +15272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 195.58 87.63 0)
 			(effects
 				(font
@@ -15405,7 +15405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 157.48 87.63 0)
 			(effects
 				(font
@@ -15537,7 +15537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_2U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_2U"
 			(at 259.08 55.88 0)
 			(effects
 				(font
@@ -15606,7 +15606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 251.46 63.5 90)
 			(effects
 				(font
@@ -15691,7 +15691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 246.38 71.12 0)
 			(effects
 				(font
@@ -15827,7 +15827,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 162.56 113.03 90)
 			(effects
 				(font
@@ -15979,7 +15979,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 137.16 113.03 90)
 			(effects
 				(font
@@ -16066,7 +16066,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 200.66 78.74 90)
 			(effects
 				(font
@@ -16220,7 +16220,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 226.06 129.54 90)
 			(effects
 				(font
@@ -16307,7 +16307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 162.56 78.74 90)
 			(effects
 				(font
@@ -16394,7 +16394,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 264.16 78.74 90)
 			(effects
 				(font
@@ -16481,7 +16481,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 226.06 78.74 90)
 			(effects
 				(font
@@ -16568,7 +16568,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 251.46 95.25 90)
 			(effects
 				(font
@@ -16655,7 +16655,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 99.06 63.5 90)
 			(effects
 				(font
@@ -16811,7 +16811,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 264.16 63.5 90)
 			(effects
 				(font
@@ -16896,7 +16896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 144.78 55.88 0)
 			(effects
 				(font
@@ -16965,7 +16965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 251.46 129.54 90)
 			(effects
 				(font
@@ -17118,7 +17118,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 213.36 113.03 90)
 			(effects
 				(font
@@ -17203,7 +17203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 119.38 105.41 0)
 			(effects
 				(font
@@ -17270,7 +17270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 220.98 71.12 0)
 			(effects
 				(font
@@ -17406,7 +17406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 170.18 105.41 0)
 			(effects
 				(font
@@ -17473,7 +17473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 208.28 87.63 0)
 			(effects
 				(font
@@ -17542,7 +17542,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 213.36 63.5 90)
 			(effects
 				(font
@@ -17629,7 +17629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 99.06 113.03 90)
 			(effects
 				(font
@@ -17714,7 +17714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_3U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_3U"
 			(at 170.18 121.92 0)
 			(effects
 				(font
@@ -17781,7 +17781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.25U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1.25U"
 			(at 233.68 121.92 0)
 			(effects
 				(font
@@ -17985,7 +17985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 175.26 129.54 90)
 			(effects
 				(font
@@ -18070,7 +18070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 195.58 55.88 0)
 			(effects
 				(font
@@ -18137,7 +18137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 157.48 55.88 0)
 			(effects
 				(font
@@ -18206,7 +18206,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 111.76 63.5 90)
 			(effects
 				(font
@@ -18293,7 +18293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 99.06 129.54 90)
 			(effects
 				(font
@@ -18378,7 +18378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.25U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1.25U"
 			(at 119.38 121.92 0)
 			(effects
 				(font
@@ -18510,7 +18510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 132.08 71.12 0)
 			(effects
 				(font
@@ -18579,7 +18579,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 137.16 63.5 90)
 			(effects
 				(font
@@ -18664,7 +18664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1.25U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1.25U"
 			(at 106.68 121.92 0)
 			(effects
 				(font
@@ -18731,7 +18731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 195.58 105.41 0)
 			(effects
 				(font
@@ -18800,7 +18800,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 99.06 95.25 90)
 			(effects
 				(font
@@ -18887,7 +18887,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 111.76 78.74 90)
 			(effects
 				(font
@@ -19040,7 +19040,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 187.96 113.03 90)
 			(effects
 				(font
@@ -19125,7 +19125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 106.68 55.88 0)
 			(effects
 				(font
@@ -19194,7 +19194,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 200.66 95.25 90)
 			(effects
 				(font
@@ -19279,7 +19279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 208.28 71.12 0)
 			(effects
 				(font
@@ -19346,7 +19346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+		(property "Footprint" "keyswitch:CherryMX_Hotswap_via_1U"
 			(at 220.98 55.88 0)
 			(effects
 				(font
@@ -19415,7 +19415,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 213.36 129.54 90)
 			(effects
 				(font
@@ -19502,7 +19502,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd:D3_TH_SMD"
+		(property "Footprint" "others:D3_TH_SMD"
 			(at 149.86 95.25 90)
 			(effects
 				(font
